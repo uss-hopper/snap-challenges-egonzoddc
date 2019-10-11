@@ -6,6 +6,6 @@
 
 </head>
 	<body>
-<p> As a end user of mailchimp I can upload pictures of my fly fishing trips to an image block and create a link to share them with my friends and family.</p>
+<p> As a end user of mailchimp I can upload pictures of my fly fishing trips to an image block.</p>
 	</body>
 </html>
