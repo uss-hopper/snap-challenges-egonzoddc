@@ -10,3 +10,10 @@ create table task(
 	taskDescription VARCHAR(256),
 	primary key(taskId)
 );
+/**
+SELECT tweet.tweetContent, profile.profileAtHandle
+FROM tweet
+		  INNER JOIN `like` ON tweet.tweetId = like.likeTweetId
+		  INNER JOIN profile ON like.likeProfileId = profile.profileId
+WHERE tweet.tweetId = UNHEX('0536faef082b454e9d444cdbe7887d7a');
+**/
